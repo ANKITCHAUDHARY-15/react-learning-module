@@ -5,6 +5,7 @@ import BindingEvent from "./ClassComponents/BindingEvent";
 import ParentChield from "./ClassComponents/Parent_Children/ParentChield";
 import Form from "./ClassComponents/Form";
 import LCM from "./ClassComponents/LCM/LCM";
+import Refs from "./ClassComponents/Refs/Refs";
 
 class ClassComponents extends Component {
   render() {
@@ -47,6 +48,9 @@ class ClassComponents extends Component {
         <div className="container">
           <div className="border-green-1 mt-2">
             <LCM />
+          </div>
+          <div  className="border-blue-1 mt-2 p-2">
+            <Refs />
           </div>
           <hr />
         </div>
