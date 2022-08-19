@@ -2,6 +2,7 @@ import React from "react";
 
 export function LogInfo(msg) {
   console.log("INFO : " + msg);
+  // alert(msg);
 }
 export function LogError(msg){
     console.log("ERROR : " + msg);

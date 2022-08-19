@@ -41,7 +41,7 @@ function LifeCycleMethodOfClassComponent() {
       <div className="m-4">
         <h4>Error handling</h4>
         <div>
-          When there is an error during rendering in a life cycle method or in
+          When there is an error during rendering, in a life cycle method or in
           the constructor of any child component
         </div>
         <ul>

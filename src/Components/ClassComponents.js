@@ -4,8 +4,7 @@ import CounterComponent from "./ClassComponents/Counter";
 import BindingEvent from "./ClassComponents/BindingEvent";
 import ParentChield from "./ClassComponents/Parent_Children/ParentChield";
 import Form from "./ClassComponents/Form";
-import LifeCycleMethods from "./ClassComponents/LifeCycleMethods";
-import LCMParent from "./ClassComponents/Parent_Children/LCMParent";
+import LCM from "./ClassComponents/LCM/LCM";
 
 class ClassComponents extends Component {
   render() {
@@ -45,11 +44,11 @@ class ClassComponents extends Component {
         <div>
           <Form />
         </div>
-        <div>
-          <LifeCycleMethods />
-        </div>
-        <div>
-          <LCMParent />
+        <div className="container">
+          <div className="border-green-1 mt-2">
+            <LCM />
+          </div>
+          <hr />
         </div>
 
         <div className="mt-4">.</div>

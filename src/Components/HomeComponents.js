@@ -10,7 +10,10 @@ import {
   JSXSyntax,
   JSSyntax,
 } from "./FunctionalComponents/Home/JSXAndNormalJS";
-import {CSS} from "./FunctionalComponents/Home/CSS";
+import { CSS } from "./FunctionalComponents/Home/CSS";
+import UpdatingLifeCycleMethod from "./FunctionalComponents/Home/UpdatingLifeCycleMethod";
+import UnMountingLifeCycleMethod from "./FunctionalComponents/Home/UnMountingLifeCycleMethod";
+import PureAndRegularComponent from "./FunctionalComponents/Home/PureAndRegularComponent";
 
 const Home = () => {
   return (
@@ -42,6 +45,12 @@ const Home = () => {
         <LifeCycleMethodOfClassComponent />
         <hr />
         <MountingLifeCycleMethod />
+        <hr />
+        <UpdatingLifeCycleMethod />
+        <hr />
+        <UnMountingLifeCycleMethod />
+        <hr />
+        <PureAndRegularComponent />
         <hr />
       </div>
 
