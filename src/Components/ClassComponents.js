@@ -9,6 +9,7 @@ import Refs from "./ClassComponents/Refs/Refs";
 import ErrorBounderyCheck from "./ClassComponents/ErrorBounderyCheck";
 import HOC from "./ClassComponents/HOC/HOC";
 import RenderProps from "./ClassComponents/RenderProps/RenderProps";
+import Context from "./ClassComponents/Context/Context";
 
 class ClassComponents extends Component {
   render() {
@@ -65,6 +66,12 @@ class ClassComponents extends Component {
           <div className="border-blue-1 mt-2 p-2">
             <RenderProps />
           </div>
+          <div className="border-blue-1 mt-2 p-2">
+            <Context />
+          </div>
+          <div className="border-blue-1 mt-2 p-2"></div>
+          <div className="border-blue-1 mt-2 p-2"></div>
+          <div className="border-blue-1 mt-2 p-2"></div>
           <div className="border-blue-1 mt-2 p-2"></div>
           <div className="border-blue-1 mt-2 p-2"></div>
         </div>
