@@ -7,6 +7,7 @@ import Form from "./ClassComponents/Form";
 import LCM from "./ClassComponents/LCM/LCM";
 import Refs from "./ClassComponents/Refs/Refs";
 import ErrorBounderyCheck from "./ClassComponents/ErrorBounderyCheck";
+import HOC from "./ClassComponents/HOC/HOC";
 
 class ClassComponents extends Component {
   render() {
@@ -56,6 +57,15 @@ class ClassComponents extends Component {
           <hr />
           <div  className="border-blue-1 mt-2 p-2">
             <ErrorBounderyCheck />
+          </div>
+          <div  className="border-blue-1 mt-2 p-2">
+            <HOC />
+          </div>
+          <div  className="border-blue-1 mt-2 p-2">
+          </div>
+          <div  className="border-blue-1 mt-2 p-2">
+          </div>
+          <div  className="border-blue-1 mt-2 p-2">
           </div>
         </div>
 

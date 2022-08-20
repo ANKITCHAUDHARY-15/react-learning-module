@@ -16,6 +16,7 @@ import UnMountingLifeCycleMethod from "./FunctionalComponents/Home/UnMountingLif
 import PureAndRegularComponent from "./FunctionalComponents/Home/PureAndRegularComponent";
 import ReactBasic from "./FunctionalComponents/Home/ReactBasic";
 import ErrorBoundary from "./FunctionalComponents/Home/ErrorBoundary";
+import HOC from "./FunctionalComponents/Home/HOC";
 
 const Home = () => {
   return (
@@ -56,7 +57,8 @@ const Home = () => {
         <hr />
         <PureAndRegularComponent />
         <hr />
-        
+        <HOC />
+        <hr />
 
         <hr />
         <ReactBasic />

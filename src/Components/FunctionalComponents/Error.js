@@ -7,7 +7,7 @@ export default function Error() {
   return (
     <div>
         <div>
-            <button onClick={throwError()}>throw Errow</button>
+            <button onClick={throwError}>throw Errow</button>
         </div>
     </div>
   )
