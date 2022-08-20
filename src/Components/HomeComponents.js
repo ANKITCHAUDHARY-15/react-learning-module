@@ -14,6 +14,7 @@ import { CSS } from "./FunctionalComponents/Home/CSS";
 import UpdatingLifeCycleMethod from "./FunctionalComponents/Home/UpdatingLifeCycleMethod";
 import UnMountingLifeCycleMethod from "./FunctionalComponents/Home/UnMountingLifeCycleMethod";
 import PureAndRegularComponent from "./FunctionalComponents/Home/PureAndRegularComponent";
+import ReactBasic from "./FunctionalComponents/Home/ReactBasic";
 
 const Home = () => {
   return (
@@ -51,6 +52,9 @@ const Home = () => {
         <UnMountingLifeCycleMethod />
         <hr />
         <PureAndRegularComponent />
+        <hr />
+        <hr />
+        <ReactBasic />
         <hr />
       </div>
 

@@ -4,6 +4,7 @@ import { GreetV2 } from "./FunctionalComponents/GreetV2";
 import BindingEvent from "./FunctionalComponents/BindingEvent";
 import RenderList from "./FunctionalComponents/RenderList";
 import StylingReactComponent from "./FunctionalComponents/StylingReactComponent";
+import Portals from "./FunctionalComponents/Portals";
 
 const FunctionalComponents = () => {
   return (
@@ -32,7 +33,12 @@ const FunctionalComponents = () => {
           <StylingReactComponent />
         </div>
         <div className="row border-blue-1 mt-2">
+          <Portals />
         </div>
+        <div className="row border-blue-1 mt-2"></div>
+        <div className="row border-blue-1 mt-2"></div>
+        <div className="row border-blue-1 mt-2"></div>
+        <div className="row border-blue-1 mt-2"></div>
         <div className="row border-blue-1 mt-2"></div>
       </div>
       <div></div>

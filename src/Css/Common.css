@@ -7,6 +7,15 @@
 .border-green-1 {
   border: 1px solid green;
 }
+.border-yellow-1 {
+  border: 1px solid yellow;
+}
+.border-orange-1 {
+  border: 1px solid orange;
+}
+.border-teal-1 {
+  border: 1px solid teal;
+}
 .align-text-center {
   text-align: center;
 }
