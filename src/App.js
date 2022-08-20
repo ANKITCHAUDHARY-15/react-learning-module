@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className="m-4">
+        <div className="m-4 border-green-1 p-2">
           <Link to="/" className="pl-4">
             Home{" "}
           </Link>
