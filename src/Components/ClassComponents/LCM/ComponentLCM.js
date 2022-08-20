@@ -33,13 +33,13 @@ export class ComponentLCM extends Component {
   componentWillUnmount() {
     LogInfo("SCLCM_componentwillUnmount_CALLED");
   }
-  //
-  getDerivedStateFromError() {
-    LogInfo("SCLCM_getDerivedStateFromError_CALLED");
-  }
-  componentDidCatch() {
-    LogInfo("SCLCM_componentDidCatch_CALLED");
-  }
+  // explane in Error Boundary component
+  // getDerivedStateFromError() {
+  //   LogInfo("SCLCM_getDerivedStateFromError_CALLED");
+  // }
+  // componentDidCatch() {
+  //   LogInfo("SCLCM_componentDidCatch_CALLED");
+  // }
   //
   changeState = () => {
     this.setState({ Flag: !this.state.Flag });

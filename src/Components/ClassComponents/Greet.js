@@ -5,7 +5,7 @@ class Greet extends Component {
     return (
       <div>
         <h3>
-          {this.props.greetText} {this.props.name}
+          {this.props.greetText ? this.props.greetText : "Hi"} {this.props.name}
         </h3>
         {this.props.isShowComponentDesc && (
           <p>I am a Class Component with default export</p>

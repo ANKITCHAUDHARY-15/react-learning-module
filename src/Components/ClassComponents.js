@@ -6,6 +6,7 @@ import ParentChield from "./ClassComponents/Parent_Children/ParentChield";
 import Form from "./ClassComponents/Form";
 import LCM from "./ClassComponents/LCM/LCM";
 import Refs from "./ClassComponents/Refs/Refs";
+import ErrorBounderyCheck from "./ClassComponents/ErrorBounderyCheck";
 
 class ClassComponents extends Component {
   render() {
@@ -53,6 +54,9 @@ class ClassComponents extends Component {
             <Refs />
           </div>
           <hr />
+          <div  className="border-blue-1 mt-2 p-2">
+            <ErrorBounderyCheck />
+          </div>
         </div>
 
         <div className="mt-4">.</div>
