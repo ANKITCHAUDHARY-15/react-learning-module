@@ -10,6 +10,7 @@ import ErrorBounderyCheck from "./ClassComponents/ErrorBounderyCheck";
 import HOC from "./ClassComponents/HOC/HOC";
 import RenderProps from "./ClassComponents/RenderProps/RenderProps";
 import Context from "./ClassComponents/Context/Context";
+import HTTP from "./ClassComponents/HTTP/HTTP";
 
 class ClassComponents extends Component {
   render() {
@@ -69,7 +70,9 @@ class ClassComponents extends Component {
           <div className="border-blue-1 mt-2 p-2">
             <Context />
           </div>
-          <div className="border-blue-1 mt-2 p-2"></div>
+          <div className="border-blue-1 mt-2 p-2">
+            <HTTP />
+          </div>
           <div className="border-blue-1 mt-2 p-2"></div>
           <div className="border-blue-1 mt-2 p-2"></div>
           <div className="border-blue-1 mt-2 p-2"></div>
