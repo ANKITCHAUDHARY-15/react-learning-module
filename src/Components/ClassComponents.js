@@ -8,6 +8,7 @@ import LCM from "./ClassComponents/LCM/LCM";
 import Refs from "./ClassComponents/Refs/Refs";
 import ErrorBounderyCheck from "./ClassComponents/ErrorBounderyCheck";
 import HOC from "./ClassComponents/HOC/HOC";
+import RenderProps from "./ClassComponents/RenderProps/RenderProps";
 
 class ClassComponents extends Component {
   render() {
@@ -51,22 +52,21 @@ class ClassComponents extends Component {
           <div className="border-green-1 mt-2">
             <LCM />
           </div>
-          <div  className="border-blue-1 mt-2 p-2">
+          <div className="border-blue-1 mt-2 p-2">
             <Refs />
           </div>
           <hr />
-          <div  className="border-blue-1 mt-2 p-2">
+          <div className="border-blue-1 mt-2 p-2">
             <ErrorBounderyCheck />
           </div>
-          <div  className="border-blue-1 mt-2 p-2">
+          <div className="border-blue-1 mt-2 p-2">
             <HOC />
           </div>
-          <div  className="border-blue-1 mt-2 p-2">
+          <div className="border-blue-1 mt-2 p-2">
+            <RenderProps />
           </div>
-          <div  className="border-blue-1 mt-2 p-2">
-          </div>
-          <div  className="border-blue-1 mt-2 p-2">
-          </div>
+          <div className="border-blue-1 mt-2 p-2"></div>
+          <div className="border-blue-1 mt-2 p-2"></div>
         </div>
 
         <div className="mt-4">.</div>
