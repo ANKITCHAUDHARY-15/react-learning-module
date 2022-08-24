@@ -5,6 +5,7 @@ import FunctionalComponents from "./Components/FunctionalComponents";
 import ClassComponents from "./Components/ClassComponents";
 import Home from "./Components/HomeComponents";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import CustomRouter from "./Router/CustomRouter";
 
 function App() {
   return (
@@ -25,8 +26,13 @@ function App() {
         </div>
 
         <Route exact path="/" component={Home} />
-        <Route path="/functionalComponents" component={FunctionalComponents} />
+        <Route
+          exact
+          path="/functionalComponents"
+          component={FunctionalComponents}
+        />
         <Route path="/classComponents" component={ClassComponents} />
+        <CustomRouter />
       </Router>
     </div>
   );

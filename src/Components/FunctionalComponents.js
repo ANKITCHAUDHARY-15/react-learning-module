@@ -5,6 +5,7 @@ import BindingEvent from "./FunctionalComponents/BindingEvent";
 import RenderList from "./FunctionalComponents/RenderList";
 import StylingReactComponent from "./FunctionalComponents/StylingReactComponent";
 import Portals from "./FunctionalComponents/Portals";
+import Hooks from "./FunctionalComponents/Hooks/Hooks";
 
 const FunctionalComponents = () => {
   return (
@@ -35,7 +36,9 @@ const FunctionalComponents = () => {
         <div className="row border-blue-1 mt-2">
           <Portals />
         </div>
-        <div className="row border-blue-1 mt-2"></div>
+        <div className="row border-blue-1 mt-2">
+          <Hooks />
+        </div>
         <div className="row border-blue-1 mt-2"></div>
         <div className="row border-blue-1 mt-2"></div>
         <div className="row border-blue-1 mt-2"></div>
